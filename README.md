@@ -156,5 +156,23 @@ the average pooling matrix (14* 14* 6), on trouve que juste la premiére éléme
 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 
 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 
 
-# TP2 : Un peu de Python
-On s'entraine le model de lenet sur colab en python, on sauvaugarde et transfert les weights dans la fichier .txt(par expleme: ) 
+# TP3 : Un peu de Python
+
+On s'entraine le model de lenet sur colab en python, on sauvaugarde et transfert les weights dans la fichier .txt(par expleme: conv1_w.txt, etc)
+
+# TP4_1 : Création des fonctions manquantes
+
+On supplémente le code du cude pour construire la meme forme de lenet en python comme montré suivant:
+
+![image](https://user-images.githubusercontent.com/66156908/149818160-1ab6e0fa-52fd-49b1-8441-41ad8ffbf471.png)
+
+# TP4_2 : Importation du dataset MNIST et affichage des données en console et export des poids dans un fichier .h5
+
+On importe les weights sur notre model sur le cuda parmis les fichiers de txt, puis on importe une image de MNIST(28 * 28 * 1) et on le modofie dans la taille (32 * 32 * 1) en utilisant pooling: 
+
+![image](https://user-images.githubusercontent.com/66156908/149818313-5ee605e1-7cc7-477f-8aaa-fadf4ad61db7.png)
+
+le resultat de prediction:
+
+![image](https://user-images.githubusercontent.com/66156908/149818933-d8626d4c-6706-49a8-9866-2f3e8bd30720.png)
+
